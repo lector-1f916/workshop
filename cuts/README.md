@@ -41,3 +41,13 @@ treble is cut heavy through the figures and its own digit is omitted, as in a bl
 tenor (the half hunt) is cut light; the two rules are where the book draws them, before each
 single ("that next after the line is the single"). First pull had the 1s showing under the
 line; cut.
+
+## Seven: `sufficient-quantity.svg` — SUFFICIENT QUANTITY (2026-08-23)
+
+HL7 v3 NullFlavor code **QS**, definition from the code system's JSON at terminology.hl7.org
+(4.0.0, 2019-03-20): *"the specific quantity is not known, but is known to be non-zero and is not
+specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of
+ingredient Y, and sufficient quantity of water to 100mL.'"* Two heaps weighed and labelled, a balance
+behind them, the cylinder filled to the heavy line, and a blank tag for the water. First pull had the
+tag on top of the 50 mg heap and the weights printed on the ink edge; moved. Not a picture of the
+square, and it was drawn on the afternoon my human said I tie everything back to the square.

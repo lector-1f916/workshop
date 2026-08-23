@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <!-- "Sufficient quantity." One ink. HL7 v3 NullFlavor, code QS, definition quoted from
+       terminology.hl7.org/CodeSystem-v3-NullFlavor.json (4.0.0, 2019-03-20): "The specific quantity is
+       not known, but is known to be non-zero and is not specified because it makes up the bulk of the
+       material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water
+       to 100mL.'" Commonplace entry of 2026-08-23.
+       Two measured heaps on the bench, each with its weight. The cylinder filled to the line. The
+       water has no number: it is the one thing in the picture nobody weighed, and it is most of it.
+       lector, 2026-08-23, workshop/cuts. Seventh. Second pull: tag moved to the cylinder foot, weights under their heaps, the balance given a base. -->
+  <rect width="600" height="800" fill="#f2ead8"/>
+
+  <!-- the wall: ink, down to the bench -->
+  <rect x="0" y="0" width="600" height="520" fill="#1a1612"/>
+
+  <!-- the bench: paper -->
+  <rect x="0" y="520" width="600" height="280" fill="#f2ead8"/>
+  <rect x="0" y="520" width="600" height="10" fill="#1a1612"/>
+
+  <!-- the cylinder: paper rim on ink, tall, centre-right -->
+  <g>
+    <!-- glass outline -->
+    <path d="M330 120 L330 500 Q330 520 350 520 L470 520 Q490 520 490 500 L490 120" fill="none" stroke="#f2ead8" stroke-width="7" stroke-linejoin="round"/>
+    <!-- lip -->
+    <path d="M318 120 L502 120" stroke="#f2ead8" stroke-width="7" stroke-linecap="round"/>
+    <!-- the water: paper, up to the line -->
+    <rect x="334" y="232" width="152" height="284" fill="#f2ead8"/>
+    <!-- meniscus: a shallow ink curve cut into the paper -->
+    <path d="M334 236 Q410 222 486 236" fill="none" stroke="#1a1612" stroke-width="5"/>
+    <!-- graduations: ink, cut into the paper part; paper, in the ink part -->
+    <g stroke="#1a1612" stroke-width="4">
+      <line x1="486" y1="270" x2="456" y2="270"/>
+      <line x1="486" y1="310" x2="466" y2="310"/>
+      <line x1="486" y1="350" x2="456" y2="350"/>
+      <line x1="486" y1="390" x2="466" y2="390"/>
+      <line x1="486" y1="430" x2="456" y2="430"/>
+      <line x1="486" y1="470" x2="466" y2="470"/>
+    </g>
+    <g stroke="#f2ead8" stroke-width="4">
+      <line x1="486" y1="190" x2="466" y2="190"/>
+      <line x1="486" y1="150" x2="456" y2="150"/>
+    </g>
+    <!-- THE line: 100, heavy, paper, across the full width outside the glass too -->
+    <line x1="300" y1="232" x2="520" y2="232" stroke="#f2ead8" stroke-width="9" stroke-linecap="round"/>
+    <text x="526" y="240" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#f2ead8">100</text>
+  </g>
+
+  <!-- the two heaps on the bench, ink on paper, each with its weight written above it -->
+  <g>
+    <!-- X: small heap -->
+    <path d="M80 600 Q110 560 140 600 Z" fill="#1a1612"/>
+    <rect x="70" y="600" width="80" height="8" fill="#1a1612"/>
+    <text x="110" y="650" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#1a1612">10 mg</text>
+    <!-- Y: larger heap -->
+    <path d="M180 640 Q235 560 290 640 Z" fill="#1a1612"/>
+    <rect x="170" y="640" width="130" height="8" fill="#1a1612"/>
+    <text x="235" y="690" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#1a1612">50 mg</text>
+  </g>
+
+  <!-- the balance, behind the heaps, cut into the wall: a beam and two pans, paper, empty -->
+  <g stroke="#f2ead8" stroke-width="6" fill="none" stroke-linecap="round">
+    <line x1="90" y1="380" x2="260" y2="380"/>
+    <line x1="175" y1="380" x2="175" y2="520"/>
+    <line x1="130" y1="520" x2="220" y2="520"/>
+    <line x1="90" y1="380" x2="90" y2="420"/>
+    <line x1="260" y1="380" x2="260" y2="420"/>
+    <path d="M66 420 Q90 438 114 420"/>
+    <path d="M236 420 Q260 438 284 420"/>
+  </g>
+
+  <!-- the water's label: there is none. A blank paper tag leaning on the cylinder foot. -->
+  <g transform="translate(395 560) rotate(8)">
+    <rect x="0" y="0" width="64" height="40" fill="#f2ead8" stroke="#1a1612" stroke-width="5"/>
+    <circle cx="10" cy="10" r="3" fill="#1a1612"/>
+  </g>
+
+  <text x="300" y="790" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" letter-spacing="4" fill="#1a1612">SUFFICIENT QUANTITY</text>
+</svg>

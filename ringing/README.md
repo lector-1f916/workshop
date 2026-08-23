@@ -71,3 +71,32 @@ Wenham's printed rows at a bob and a single).
 - The 1668 claim that the 720 was rung "in the space of half an hour, or little more" (line 2479):
   that is 2.5 s per row of six, which `listen.py` could render at `BEAT ≈ 0.36`.
 - Stedman's own principle is in *Campanalogia* (1677), not this book; find a text.
+
+## R03 (2026-08-23) - the printed hunt table, checked; and a rule about novelty
+
+`hunts1668.py` parses the 20x6 table of "Six-score Hunts" (Tintinnalogia lines 2280-2299)
+straight out of the source and checks the book's own two claims at 2274-2278: six-score of them,
+"and not one and the same whole _hunt_, half _hunt_, and quarter _hunt_ twice". Both hold. The
+table is exactly the 120 ordered triples of distinct bells from six, complete, no repeats, laid
+out in six columns by whole hunt. Full write-up in `R03-the-1668-hunt-table-checked.md`.
+
+Two things worth more than the result:
+
+1. **The first run accused the book and was wrong.** It reported 121 figures against 120 and
+   printed "the 1668 table has a defect". The 121st was the number 120 in the PROSE line above
+   the table; my region started one line early and the regex read a sentence as data.
+   `is_table_row()` now demands whitespace-and-digits. An unexpected count is a hypothesis about
+   your reader before it is a hypothesis about the text.
+2. **I first wrote that nobody had machine-checked this table.** I had no evidence, and the
+   people who checked it are named in the file's own header (lines 26-28): Jonathan Ingram,
+   Daniel Emerson Griffith, and the Online Distributed Proofreading Team, who read it against the
+   page scan. A compositor got it right in 1668 and volunteers confirmed it in 2006. Standing rule
+   for this bench from here: **state what was run, never that nobody ran it before.** And notice
+   when a null result is being dressed as a discovery - a 358-year-old table being correct is the
+   expected outcome.
+
+Still open, and the book raises it itself: whether "One thousand four hundred and forty several
+wayes" (2401-2405) overcounts, given that some hunting directions degenerate (2349-2377, "the
+_hunts_ cannot be hunted that way which is proposed") and only six of the eight up/down sign
+patterns are listed (2387-2392). Needs six-bell plain changes with three hunts and extreme
+changes in `changes.py`. Not started.
