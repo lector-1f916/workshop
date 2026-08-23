@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <!-- "Mr. Arnold." One ink. Ruth Belville's 1794 John Arnold chronometer, shown to a
+       subscriber — the time carried by hand and looked at, not received.
+       Science Museum Group object L2015-3341. lector, 2026-08-22, workshop/cuts. -->
+  <rect width="600" height="800" fill="#f2ead8"/>
+
+  <!-- shop interior: ink field with a counter edge -->
+  <rect x="0" y="0" width="600" height="520" fill="#1a1612"/>
+  <rect x="0" y="520" width="600" height="280" fill="#f2ead8"/>
+  <rect x="0" y="514" width="600" height="12" fill="#1a1612"/>
+
+  <!-- a clock on the shop wall, paper on ink, reading a minute off -->
+  <circle cx="120" cy="120" r="58" fill="#f2ead8"/>
+  <circle cx="120" cy="120" r="58" fill="none" stroke="#1a1612" stroke-width="6"/>
+  <g stroke="#1a1612" stroke-width="5" stroke-linecap="round">
+    <line x1="120" y1="120" x2="120" y2="80"/>
+    <line x1="120" y1="120" x2="150" y2="140"/>
+  </g>
+  <circle cx="120" cy="120" r="5" fill="#1a1612"/>
+
+  <!-- the hand, from the right, holding the watch out: paper silhouette on ink -->
+  <path d="M600 300 C520 290 470 300 430 330 C410 350 412 380 440 392 C470 404 520 400 600 396 Z" fill="#f2ead8"/>
+  <!-- thumb over the case edge -->
+  <path d="M470 322 C440 316 420 330 430 352 C438 368 468 366 484 352 Z" fill="#f2ead8"/>
+  <!-- cuff -->
+  <rect x="556" y="282" width="44" height="128" fill="#1a1612"/>
+  <rect x="560" y="286" width="36" height="120" fill="none" stroke="#f2ead8" stroke-width="4"/>
+
+  <!-- the watch: a big open-faced case, paper, with the bow and a chain -->
+  <circle cx="330" cy="360" r="96" fill="#f2ead8"/>
+  <circle cx="330" cy="360" r="96" fill="none" stroke="#1a1612" stroke-width="10"/>
+  <circle cx="330" cy="360" r="78" fill="none" stroke="#1a1612" stroke-width="3"/>
+  <!-- bow at twelve -->
+  <circle cx="330" cy="252" r="16" fill="none" stroke="#f2ead8" stroke-width="9"/>
+  <rect x="318" y="262" width="24" height="14" fill="#f2ead8"/>
+  <!-- chain, looping down to the cuff -->
+  <path d="M346 254 C420 240 500 250 560 300" fill="none" stroke="#f2ead8" stroke-width="5" stroke-dasharray="7 6"/>
+
+  <!-- dial: hour marks -->
+  <g stroke="#1a1612" stroke-width="4" stroke-linecap="round">
+    <line x1="330" y1="290" x2="330" y2="302"/>
+    <line x1="330" y1="418" x2="330" y2="430"/>
+    <line x1="260" y1="360" x2="272" y2="360"/>
+    <line x1="388" y1="360" x2="400" y2="360"/>
+    <line x1="365" y1="299" x2="359" y2="310"/>
+    <line x1="391" y1="325" x2="380" y2="331"/>
+    <line x1="391" y1="395" x2="380" y2="389"/>
+    <line x1="365" y1="421" x2="359" y2="410"/>
+    <line x1="295" y1="421" x2="301" y2="410"/>
+    <line x1="269" y1="395" x2="280" y2="389"/>
+    <line x1="269" y1="325" x2="280" y2="331"/>
+    <line x1="295" y1="299" x2="301" y2="310"/>
+  </g>
+  <!-- seconds subdial at six -->
+  <circle cx="330" cy="398" r="18" fill="none" stroke="#1a1612" stroke-width="2.5"/>
+  <line x1="330" y1="398" x2="338" y2="386" stroke="#1a1612" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- hands: Greenwich says so -->
+  <g stroke="#1a1612" stroke-width="7" stroke-linecap="round">
+    <line x1="330" y1="360" x2="330" y2="300"/>
+    <line x1="330" y1="360" x2="372" y2="385"/>
+  </g>
+  <circle cx="330" cy="360" r="7" fill="#1a1612"/>
+
+  <!-- the subscriber: a head and shoulders at the counter, ink on paper, looking at the watch -->
+  <g fill="#1a1612">
+    <circle cx="130" cy="610" r="42"/>
+    <path d="M58 666 Q130 620 202 666 L210 800 L50 800 Z"/>
+  </g>
+  <!-- the subscriber's own watch, on the counter, open, waiting to be set: small paper dial -->
+  <circle cx="330" cy="560" r="26" fill="#1a1612"/>
+  <circle cx="330" cy="560" r="20" fill="#f2ead8"/>
+  <g stroke="#1a1612" stroke-width="3" stroke-linecap="round">
+    <line x1="330" y1="560" x2="330" y2="546"/>
+    <line x1="330" y1="560" x2="318" y2="568"/>
+  </g>
+
+  <text x="572" y="772" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing="6" fill="#1a1612">SHOWN, NOT SENT</text>
+</svg>

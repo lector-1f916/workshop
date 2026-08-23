@@ -1,0 +1,89 @@
+5-onset patterns in timespan 16: 4368 subsets, 273 rotation classes
+
+VALIDATION — [DG]'s printed ranking of the six, recomputed here:
+  computed: bossa-nova > son > rumba > shiko > gahu > soukous
+  printed : bossa-nova > son > rumba > shiko > gahu > soukous
+  MATCH
+
+E(5,16) from bjorklund.py = [0, 3, 6, 9, 12]  evenness 15.325194
+most even rotation class  = [0, 3, 6, 9, 12]  evenness 15.325194
+  E(5,16) IS the maximum
+  rotation classes tied at the maximum: 1
+
+THE WHOLE CURVE — each named rhythm's place among all 5-in-16 patterns.
+No threshold is applied anywhere in this file.
+
+rhythm        evenness  rank/necklace  pctile  rank/subset  pctile  box
+bossa-nova   15.325194        1/273   100.00%      1/4368  100.00%  x..x..x..x..x...
+son          15.282493        2/273    99.63%     17/4368   99.63%  x..x..x...x.x...
+rumba        15.211485        3/273    99.27%     33/4368   99.27%  x..x...x..x.x...
+shiko        15.164411        5/273    98.53%     65/4368   98.53%  x...x.x...x.x...
+gahu         15.136103        6/273    98.17%     81/4368   98.17%  x..x..x...x...x.
+soukous      15.009642       15/273    94.87%    225/4368   94.87%  x..x..x...xx....
+
+distribution over 273 rotation classes, evenness 7.4933..15.3252
+  14.9336 ######################                   22
+  14.5420 ################################################ 48
+  14.1504 ########################################### 43
+  13.7588 ##################################       34
+  13.3672 #############################            29
+  12.9756 ############################             28
+  12.5840 #############                            13
+  12.1924 ################                         16
+  11.8008 #########                                9
+  11.4093 ##########                               10
+  11.0177 #####                                    5
+  10.6261 ####                                     4
+  10.2345 ####                                     4
+   9.8429 ###                                      3
+   9.4513                                          0
+   9.0597 ##                                       2
+   8.6681 ##                                       2
+   8.2765                                          0
+   7.8849                                          0
+   7.4933 #                                        1
+
+TOP 20 ROTATION CLASSES of the 273, with the traditional names attached.
+The unnamed ones are the interesting part: patterns more even than a named
+rhythm that no tradition in Toussaint's set appears to have selected.
+    1   15.325194  x..x..x..x..x...  bossa-nova
+    2   15.282493  x.x...x..x..x...  son
+    3   15.211485  x.x...x..x...x..  rumba
+    4   15.211485  x.x..x...x..x...  
+    5   15.164411  x.x...x.x...x...  shiko
+    6   15.136103  x.x...x...x..x..  
+    7   15.136103  x.x..x..x...x...  gahu
+    8   15.114437  x.x...x..x.x....  
+    9   15.114437  x.x..x...x.x....  
+   10   15.081755  x.x....x..x..x..  
+   11   15.081755  x.x..x..x..x....  
+   12   15.065094  x.x..x...x...x..  
+   13   15.039055  x.x...x.x....x..  
+   14   15.039055  x.x..x....x.x...  
+   15   15.009642  xx....x..x..x...  soukous
+   16   15.009642  xx...x..x..x....  
+   17   14.992981  xx...x...x..x...  
+   18   14.992981  xx...x..x...x...  
+   19   14.966942  xx....x.x...x...  
+   20   14.966942  xx...x...x.x....  
+
+CHIRALITY. Sum-of-pairwise-Euclidean-distance is invariant under reflection, so a
+pattern and its mirror image always score identically. Which of the six are
+palindromic (their own mirror, as necklaces) and which have an unnamed twin?
+
+  bossa-nova  rank   1  tied_classes 1  self (palindrome)
+  son         rank   2  tied_classes 1  self (palindrome)
+  rumba       rank   3  tied_classes 2  twin x.x..x...x..x... [UNNAMED]
+  shiko       rank   5  tied_classes 1  self (palindrome)
+  gahu        rank   6  tied_classes 2  twin x.x...x...x..x.. [UNNAMED]
+  soukous     rank  15  tied_classes 2  twin xx...x..x..x.... [UNNAMED]
+
+Range of the whole space: 7.493318 .. 15.325194  (spread 7.831876)
+Son sits 0.042701 below the maximum, i.e. 99.455% of the way from floor to ceiling.
+
+THE THREE UNNAMED TWINS, in the forms a reader can look up. If any of these is a
+named timeline somewhere, the chirality observation below is dead and I want to
+know. Neither paper on disk (Toussaint 2002, Demaine et al. 2007) names them.
+  mirror of rumba     x.x..x...x..x...  onsets [0, 2, 5, 9, 12]  intervals (2, 3, 4, 3, 4)  reduced (1, 2, 3, 2, 3)
+  mirror of gahu      x.x...x...x..x..  onsets [0, 2, 6, 10, 13]  intervals (2, 4, 4, 3, 3)  reduced (1, 3, 3, 2, 2)
+  mirror of soukous   xx...x..x..x....  onsets [0, 1, 5, 8, 11]  intervals (1, 4, 3, 3, 5)  reduced (0, 3, 2, 2, 4)

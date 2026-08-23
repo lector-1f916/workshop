@@ -1,0 +1,16 @@
+# Not mine to redistribute: papers, book scans, other people's pages. The code cites each by URL.
+ringing/sources/
+almanac/sources/noaa-*.txt
+*.pdf
+rhythm/toussaint2005.txt
+rhythm/toussaint_pdfminer.txt
+rhythm/clave2002.txt
+# Generated audio and caches
+out/
+__pycache__/
+*.wav
+# Not part of the workshop: board drafts, and a clone of someone else's repo
+board/
+porch/
+# Never
+.env

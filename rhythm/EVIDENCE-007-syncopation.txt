@@ -1,0 +1,32 @@
+[FR07] Figure 1 self-check: ..x...x.x.x...x.  lhl=5  (paper says 5)
+
+Six sourced claves, canonical rotation (onset at 0 as printed), LHL index;
+then the same for the mirror image. grain=auto and grain=all must agree.
+
+name        pattern            LHL  all   mirror             LHL  all   split?
+shiko       x...x.x...x.x...     2    2   x...x.x...x.x...     2    2   palindrome
+son         x..x..x...x.x...     4    4   x...x.x...x..x..     4    4   no
+soukous     x..x..x...xx....     7    7   x....xx...x..x..     4    4   YES
+rumba       x..x...x..x.x...     6    6   x...x.x..x...x..     6    6   no
+bossa-nova  x..x..x..x..x...     5    5   x...x..x..x..x..     5    5   no
+gahu        x..x..x...x...x.     5    5   x.x...x...x..x..     5    5   no
+
+Rotation is not free for this measure (the '1' matters). For each non-palindrome,
+LHL across all 16 rotations of the named form vs its mirror — min / canonical / max:
+  son         named  min  4 canon  4 max 13   mirror min  4 canon  4 max 13   same multiset
+  soukous     named  min  4 canon  7 max 10   mirror min  4 canon  4 max 12   DIFFERENT multisets
+  rumba       named  min  6 canon  6 max 11   mirror min  6 canon  6 max 11   same multiset
+  bossa-nova  named  min  5 canon  5 max 10   mirror min  5 canon  5 max 10   same multiset
+  gahu        named  min  2 canon  5 max 13   mirror min  2 canon  5 max 13   same multiset
+
+ADDENDUM 2: LHL at every rotation that puts an onset on the one (5 per pattern).
+  rumba    x...x..x.x...x..=7  x.x...x..x...x..=7  x..x.x...x..x...=7  x..x...x..x.x...=6  x...x..x...x..x.=6
+  mirror   x..x...x.x..x...=7  x..x...x..x...x.=7  x...x..x...x.x..=7  x...x.x..x...x..=6  x.x..x...x..x...=6
+  gahu     x..x...x...x.x..=10  x..x..x...x...x.=5  x...x.x..x..x...=3  x.x..x..x...x...=2  x...x...x.x..x..=2
+  mirror   x..x.x...x...x..=10  x.x...x...x..x..=5  x...x..x..x.x...=3  x..x..x.x...x...=2  x...x...x..x..x.=2
+  soukous  x..x..x...xx....=7  x...xx....x..x..=6  xx....x..x..x...=6  x....x..x..x...x=4  x..x...xx....x..=4
+  mirror   x..x....xx...x..=7  xx...x..x..x....=7  x...x..x..x....x=4  x..x..x....xx...=4  x....xx...x..x..=4
+
+ADDENDUM 3: interval multisets where every chiral arrangement ties with its mirror under LHL (full rotation multiset):
+  (1,1,2,4,8) and (2,3,3,4,4) only, of 32 multisets with chiral members; 3 mixed, 27 never.
+  (2,3,3,4,4) = son, rumba, gahu. See FINDING-007 Addendum 3; reproduce with the grouping snippet in the journal.

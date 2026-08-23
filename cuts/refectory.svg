@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <!-- "Keep him from the spirit of pride." One ink. Rule of St Benedict ch. 38 (Doyle tr.):
+       the weekly reader at the pulpit, the long table in silence, bowls passed hand to hand,
+       "no whispering may be heard nor any voice except the reader's."
+       lector, 2026-08-22, workshop/cuts. -->
+  <rect width="600" height="800" fill="#f2ead8"/>
+
+  <!-- the hall: ink, with a tall arched window of paper behind the pulpit -->
+  <rect x="0" y="0" width="600" height="600" fill="#1a1612"/>
+  <path d="M250 90 A50 50 0 0 1 350 90 L350 330 L250 330 Z" fill="#f2ead8"/>
+  <line x1="300" y1="40" x2="300" y2="330" stroke="#1a1612" stroke-width="6"/>
+  <line x1="250" y1="180" x2="350" y2="180" stroke="#1a1612" stroke-width="6"/>
+
+  <!-- the pulpit: a raised box, paper edge -->
+  <rect x="262" y="330" width="76" height="110" fill="#1a1612" stroke="#f2ead8" stroke-width="5"/>
+  <rect x="248" y="318" width="104" height="16" fill="#f2ead8"/>
+
+  <!-- the reader: hooded figure in the window, ink on paper, book open on the desk -->
+  <g fill="#1a1612">
+    <path d="M300 196 m-22 0 a22 22 0 1 0 44 0 a22 22 0 1 0 -44 0"/>
+    <path d="M264 318 L268 238 Q300 210 332 238 L336 318 Z"/>
+  </g>
+  <!-- the hood: paper notch for the face turned down to the page -->
+  <path d="M288 190 Q300 184 312 190 L310 214 Q300 222 290 214 Z" fill="#f2ead8"/>
+  <!-- the book, paper, on the desk -->
+  <path d="M270 316 L300 308 L330 316 L330 322 L300 314 L270 322 Z" fill="#f2ead8"/>
+
+  <!-- the long table, seen from the end: a paper wedge narrowing toward the pulpit -->
+  <polygon points="60,600 540,600 360,445 240,445" fill="#f2ead8"/>
+  <polygon points="60,600 540,600 360,445 240,445" fill="none" stroke="#1a1612" stroke-width="4"/>
+
+  <!-- bowls on the table, passed along: small ink ovals -->
+  <g fill="#1a1612">
+    <ellipse cx="300" cy="470" rx="10" ry="4"/>
+    <ellipse cx="290" cy="500" rx="13" ry="5"/>
+    <ellipse cx="312" cy="535" rx="16" ry="6"/>
+    <ellipse cx="286" cy="575" rx="20" ry="7"/>
+  </g>
+
+  <!-- the brethren: hooded heads either side, ink on ink with paper rims, descending in size -->
+  <g fill="none" stroke="#f2ead8" stroke-width="4">
+    <path d="M225 470 a14 14 0 1 1 0.1 0"/>
+    <path d="M375 470 a14 14 0 1 1 0.1 0"/>
+    <path d="M200 505 a17 17 0 1 1 0.1 0"/>
+    <path d="M400 505 a17 17 0 1 1 0.1 0"/>
+    <path d="M165 548 a21 21 0 1 1 0.1 0"/>
+    <path d="M435 548 a21 21 0 1 1 0.1 0"/>
+    <path d="M120 600 a27 27 0 1 1 0.1 0"/>
+    <path d="M480 600 a27 27 0 1 1 0.1 0"/>
+  </g>
+  <!-- the nearest two, full shoulders, ink on paper below the hall line -->
+  <g fill="#1a1612">
+    <circle cx="92" cy="650" r="38"/>
+    <path d="M30 700 Q92 660 154 700 L160 800 L24 800 Z"/>
+    <circle cx="508" cy="650" r="38"/>
+    <path d="M446 700 Q508 660 570 700 L576 800 L440 800 Z"/>
+  </g>
+  <!-- a hand, paper, passing a bowl across the gap: the one permitted signal -->
+  <path d="M150 712 C190 700 220 704 250 716 C260 722 256 734 244 734 C214 736 186 738 156 730 Z" fill="#1a1612"/>
+  <ellipse cx="262" cy="720" rx="22" ry="8" fill="#1a1612"/>
+  <ellipse cx="262" cy="717" rx="18" ry="5" fill="#f2ead8"/>
+
+  <text x="300" y="776" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" letter-spacing="2.5" fill="#1a1612">NO VOICE EXCEPT THE READER'S</text>
+</svg>

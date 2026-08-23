@@ -1,0 +1,652 @@
+{
+  "what": "Euclidean rhythms E(k,n) named in Toussaint (2005), independently generated",
+  "source": "Godfried T. Toussaint, 'The Euclidean Algorithm Generates Traditional Musical Rhythms', BRIDGES 2005. https://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf",
+  "generated_by": "Bjorklund's algorithm, implemented from its description in bjorklund.py, not copied from a library and not transcribed from the paper",
+  "how_to_check": "Run your own E(k,n) and compare to `bjorklund`. `as_printed` is the paper's string verbatim; where `relation` is 'rotation' the two are the same necklace started at a different onset and both are correct. Exactly one row is a genuine misprint.",
+  "relation_counts": {
+    "exact": 22,
+    "rotation": 4,
+    "MISPRINT": 1
+  },
+  "misprints": [
+    "E(5,16)"
+  ],
+  "rhythms": [
+    {
+      "k": 1,
+      "n": 2,
+      "bjorklund": "x.",
+      "as_printed": "x.",
+      "relation": "exact",
+      "onsets": [
+        0
+      ],
+      "intervals": [
+        2
+      ],
+      "maximally_even": true,
+      "name": null,
+      "note": null
+    },
+    {
+      "k": 1,
+      "n": 3,
+      "bjorklund": "x..",
+      "as_printed": "x..",
+      "relation": "exact",
+      "onsets": [
+        0
+      ],
+      "intervals": [
+        3
+      ],
+      "maximally_even": true,
+      "name": null,
+      "note": null
+    },
+    {
+      "k": 1,
+      "n": 4,
+      "bjorklund": "x...",
+      "as_printed": "x...",
+      "relation": "exact",
+      "onsets": [
+        0
+      ],
+      "intervals": [
+        4
+      ],
+      "maximally_even": true,
+      "name": null,
+      "note": null
+    },
+    {
+      "k": 2,
+      "n": 3,
+      "bjorklund": "xx.",
+      "as_printed": "x.x",
+      "relation": "rotation",
+      "onsets": [
+        0,
+        1
+      ],
+      "intervals": [
+        1,
+        2
+      ],
+      "maximally_even": true,
+      "name": "common Afro-Cuban drum",
+      "note": "Same necklace, different starting onset. Bjorklund emits xx.; the paper prints x.x, which is the orientation the rhythm is played from. Neither is wrong — pick by what you need."
+    },
+    {
+      "k": 2,
+      "n": 5,
+      "bjorklund": "x.x..",
+      "as_printed": "x.x..",
+      "relation": "exact",
+      "onsets": [
+        0,
+        2
+      ],
+      "intervals": [
+        2,
+        3
+      ],
+      "maximally_even": true,
+      "name": "thirteenth century Persian",
+      "note": null
+    },
+    {
+      "k": 3,
+      "n": 4,
+      "bjorklund": "xxx.",
+      "as_printed": "x.xx",
+      "relation": "rotation",
+      "onsets": [
+        0,
+        1,
+        2
+      ],
+      "intervals": [
+        1,
+        1,
+        2
+      ],
+      "maximally_even": true,
+      "name": "archetypal",
+      "note": "Same necklace, different starting onset. Bjorklund emits xxx.; the paper prints x.xx, which is the orientation the rhythm is played from. Neither is wrong — pick by what you need."
+    },
+    {
+      "k": 3,
+      "n": 5,
+      "bjorklund": "x.x.x",
+      "as_printed": "x.x.x",
+      "relation": "exact",
+      "onsets": [
+        0,
+        2,
+        4
+      ],
+      "intervals": [
+        2,
+        2,
+        1
+      ],
+      "maximally_even": true,
+      "name": null,
+      "note": null
+    },
+    {
+      "k": 3,
+      "n": 7,
+      "bjorklund": "x.x.x..",
+      "as_printed": "x.x.x..",
+      "relation": "exact",
+      "onsets": [
+        0,
+        2,
+        4
+      ],
+      "intervals": [
+        2,
+        2,
+        3
+      ],
+      "maximally_even": true,
+      "name": "Ruchenitza",
+      "note": null
+    },
+    {
+      "k": 3,
+      "n": 8,
+      "bjorklund": "x..x..x.",
+      "as_printed": "x..x..x.",
+      "relation": "exact",
+      "onsets": [
+        0,
+        3,
+        6
+      ],
+      "intervals": [
+        3,
+        3,
+        2
+      ],
+      "maximally_even": true,
+      "name": "Cuban tresillo",
+      "note": null
+    },
+    {
+      "k": 4,
+      "n": 7,
+      "bjorklund": "x.x.x.x",
+      "as_printed": "x.x.x.x",
+      "relation": "exact",
+      "onsets": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "intervals": [
+        2,
+        2,
+        2,
+        1
+      ],
+      "maximally_even": true,
+      "name": "Ruchenitza Bulgarian folk-dance",
+      "note": null
+    },
+    {
+      "k": 4,
+      "n": 9,
+      "bjorklund": "x.x.x.x..",
+      "as_printed": "x.x.x.x..",
+      "relation": "exact",
+      "onsets": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "intervals": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "maximally_even": true,
+      "name": null,
+      "note": null
+    },
+    {
+      "k": 4,
+      "n": 11,
+      "bjorklund": "x..x..x..x.",
+      "as_printed": "x..x..x..x.",
+      "relation": "exact",
+      "onsets": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "intervals": [
+        3,
+        3,
+        3,
+        2
+      ],
+      "maximally_even": true,
+      "name": "metric",
+      "note": null
+    },
+    {
+      "k": 4,
+      "n": 12,
+      "bjorklund": "x..x..x..x..",
+      "as_printed": "x..x..x..x..",
+      "relation": "exact",
+      "onsets": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "intervals": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "maximally_even": true,
+      "name": null,
+      "note": null
+    },
+    {
+      "k": 5,
+      "n": 6,
+      "bjorklund": "xxxxx.",
+      "as_printed": "x.xxxx",
+      "relation": "rotation",
+      "onsets": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "intervals": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "maximally_even": true,
+      "name": null,
+      "note": "Same necklace, different starting onset. Bjorklund emits xxxxx.; the paper prints x.xxxx, which is the orientation the rhythm is played from. Neither is wrong — pick by what you need."
+    },
+    {
+      "k": 5,
+      "n": 7,
+      "bjorklund": "x.xx.xx",
+      "as_printed": "x.xx.xx",
+      "relation": "exact",
+      "onsets": [
+        0,
+        2,
+        3,
+        5,
+        6
+      ],
+      "intervals": [
+        2,
+        1,
+        2,
+        1,
+        1
+      ],
+      "maximally_even": true,
+      "name": "Nawakhat",
+      "note": null
+    },
+    {
+      "k": 5,
+      "n": 8,
+      "bjorklund": "x.xx.xx.",
+      "as_printed": "x.xx.xx.",
+      "relation": "exact",
+      "onsets": [
+        0,
+        2,
+        3,
+        5,
+        6
+      ],
+      "intervals": [
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "maximally_even": true,
+      "name": "Cuban cinquillo",
+      "note": null
+    },
+    {
+      "k": 5,
+      "n": 9,
+      "bjorklund": "x.x.x.x.x",
+      "as_printed": "x.x.x.x.x",
+      "relation": "exact",
+      "onsets": [
+        0,
+        2,
+        4,
+        6,
+        8
+      ],
+      "intervals": [
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "maximally_even": true,
+      "name": null,
+      "note": null
+    },
+    {
+      "k": 5,
+      "n": 11,
+      "bjorklund": "x.x.x.x.x..",
+      "as_printed": "x.x.x.x.x..",
+      "relation": "exact",
+      "onsets": [
+        0,
+        2,
+        4,
+        6,
+        8
+      ],
+      "intervals": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "maximally_even": true,
+      "name": "metric",
+      "note": null
+    },
+    {
+      "k": 5,
+      "n": 12,
+      "bjorklund": "x..x.x..x.x.",
+      "as_printed": "x..x.x..x.x.",
+      "relation": "exact",
+      "onsets": [
+        0,
+        3,
+        5,
+        8,
+        10
+      ],
+      "intervals": [
+        3,
+        2,
+        3,
+        2,
+        2
+      ],
+      "maximally_even": true,
+      "name": "Venda clapping",
+      "note": null
+    },
+    {
+      "k": 5,
+      "n": 13,
+      "bjorklund": "x..x.x..x.x..",
+      "as_printed": "x..x.x..x.x..",
+      "relation": "exact",
+      "onsets": [
+        0,
+        3,
+        5,
+        8,
+        10
+      ],
+      "intervals": [
+        3,
+        2,
+        3,
+        2,
+        3
+      ],
+      "maximally_even": true,
+      "name": null,
+      "note": null
+    },
+    {
+      "k": 5,
+      "n": 16,
+      "bjorklund": "x..x..x..x..x...",
+      "as_printed": "x..x..x..x..x....",
+      "relation": "MISPRINT",
+      "onsets": [
+        0,
+        3,
+        6,
+        9,
+        12
+      ],
+      "intervals": [
+        3,
+        3,
+        3,
+        3,
+        4
+      ],
+      "maximally_even": true,
+      "name": "Bossa-Nova",
+      "note": "Toussaint 2005 prints 17 symbols for E(5,16), which has 16. The paper's own interval vector on the same line is correct and disagrees with its ASCII. Use `bjorklund`, not `as_printed`."
+    },
+    {
+      "k": 7,
+      "n": 8,
+      "bjorklund": "xxxxxxx.",
+      "as_printed": "x.xxxxxx",
+      "relation": "rotation",
+      "onsets": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "intervals": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "maximally_even": true,
+      "name": "typical",
+      "note": "Same necklace, different starting onset. Bjorklund emits xxxxxxx.; the paper prints x.xxxxxx, which is the orientation the rhythm is played from. Neither is wrong — pick by what you need."
+    },
+    {
+      "k": 7,
+      "n": 12,
+      "bjorklund": "x.xx.x.xx.x.",
+      "as_printed": "x.xx.x.xx.x.",
+      "relation": "exact",
+      "onsets": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        10
+      ],
+      "intervals": [
+        2,
+        1,
+        2,
+        2,
+        1,
+        2,
+        2
+      ],
+      "maximally_even": true,
+      "name": "common West African bell",
+      "note": null
+    },
+    {
+      "k": 7,
+      "n": 16,
+      "bjorklund": "x..x.x.x..x.x.x.",
+      "as_printed": "x..x.x.x..x.x.x.",
+      "relation": "exact",
+      "onsets": [
+        0,
+        3,
+        5,
+        7,
+        10,
+        12,
+        14
+      ],
+      "intervals": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2
+      ],
+      "maximally_even": true,
+      "name": "Samba",
+      "note": null
+    },
+    {
+      "k": 9,
+      "n": 16,
+      "bjorklund": "x.xx.x.x.xx.x.x.",
+      "as_printed": "x.xx.x.x.xx.x.x.",
+      "relation": "exact",
+      "onsets": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        10,
+        12,
+        14
+      ],
+      "intervals": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2
+      ],
+      "maximally_even": true,
+      "name": null,
+      "note": null
+    },
+    {
+      "k": 11,
+      "n": 24,
+      "bjorklund": "x..x.x.x.x.x..x.x.x.x.x.",
+      "as_printed": "x..x.x.x.x.x..x.x.x.x.x.",
+      "relation": "exact",
+      "onsets": [
+        0,
+        3,
+        5,
+        7,
+        9,
+        11,
+        14,
+        16,
+        18,
+        20,
+        22
+      ],
+      "intervals": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "maximally_even": true,
+      "name": null,
+      "note": null
+    },
+    {
+      "k": 13,
+      "n": 24,
+      "bjorklund": "x.xx.x.x.x.x.xx.x.x.x.x.",
+      "as_printed": "x.xx.x.x.x.x.xx.x.x.x.x.",
+      "relation": "exact",
+      "onsets": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        14,
+        16,
+        18,
+        20,
+        22
+      ],
+      "intervals": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "maximally_even": true,
+      "name": "another",
+      "note": null
+    }
+  ]
+}

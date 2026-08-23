@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <!-- "Replaced by a radio." One ink. Tampa, after 26 November 1931: the platform empty,
+       a cabinet radio on the floor, the rollers with their backs to it.
+       Tinajero via the strike's Wikipedia page: "The Lector, replaced by a radio, was never
+       returned to the workplace." lector, 2026-08-22, workshop/cuts. Fourth of four. -->
+  <rect width="600" height="800" fill="#f2ead8"/>
+
+  <!-- the factory wall and the same window as the first cut, but shut -->
+  <rect x="0" y="0" width="600" height="560" fill="#1a1612"/>
+  <rect x="108" y="68" width="384" height="354" fill="none" stroke="#f2ead8" stroke-width="10"/>
+  <line x1="300" y1="68" x2="300" y2="422" stroke="#f2ead8" stroke-width="6"/>
+  <line x1="108" y1="245" x2="492" y2="245" stroke="#f2ead8" stroke-width="6"/>
+  <!-- shut: the panes are ink -->
+
+  <!-- the platform, still there, empty: paper on ink -->
+  <rect x="150" y="330" width="300" height="14" fill="#f2ead8"/>
+  <rect x="170" y="344" width="16" height="66" fill="#f2ead8"/>
+  <rect x="414" y="344" width="16" height="66" fill="#f2ead8"/>
+  <!-- the reader's chair, empty, on the platform -->
+  <rect x="284" y="270" width="32" height="60" fill="none" stroke="#f2ead8" stroke-width="5"/>
+  <rect x="276" y="318" width="48" height="8" fill="#f2ead8"/>
+
+  <!-- the rollers: backs of heads, as before, but fewer and turned toward the benches -->
+  <g fill="#f2ead8">
+    <circle cx="180" cy="395" r="11"/><circle cx="230" cy="392" r="11"/>
+    <circle cx="370" cy="392" r="11"/><circle cx="420" cy="396" r="11"/>
+  </g>
+
+  <!-- the floor -->
+  <rect x="0" y="560" width="600" height="240" fill="#f2ead8"/>
+  <rect x="0" y="556" width="600" height="10" fill="#1a1612"/>
+
+  <!-- the radio: a cathedral-style cabinet, ink on paper, on the floor, centre -->
+  <path d="M210 760 L210 640 Q300 560 390 640 L390 760 Z" fill="#1a1612"/>
+  <!-- speaker grille: paper arch with ink bars -->
+  <path d="M250 700 L250 650 Q300 610 350 650 L350 700 Z" fill="#f2ead8"/>
+  <g stroke="#1a1612" stroke-width="4">
+    <line x1="262" y1="640" x2="262" y2="700"/>
+    <line x1="281" y1="628" x2="281" y2="700"/>
+    <line x1="300" y1="622" x2="300" y2="700"/>
+    <line x1="319" y1="628" x2="319" y2="700"/>
+    <line x1="338" y1="640" x2="338" y2="700"/>
+  </g>
+  <!-- dial and two knobs -->
+  <rect x="270" y="716" width="60" height="14" fill="#f2ead8"/>
+  <line x1="312" y1="716" x2="312" y2="730" stroke="#1a1612" stroke-width="3"/>
+  <circle cx="240" cy="736" r="9" fill="#f2ead8"/>
+  <circle cx="360" cy="736" r="9" fill="#f2ead8"/>
+  <!-- the cord, to the wall -->
+  <path d="M390 750 C440 752 470 730 520 560" fill="none" stroke="#1a1612" stroke-width="4"/>
+
+  <!-- the voice, as before, but leaving the radio and going nowhere: short ink strokes -->
+  <g stroke="#1a1612" stroke-width="5" stroke-linecap="round" fill="none">
+    <path d="M200 620 Q180 600 170 580"/>
+    <path d="M400 620 Q420 600 430 580"/>
+    <path d="M300 596 L300 576"/>
+  </g>
+
+  <!-- nobody under the window -->
+
+  <text x="300" y="790" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" letter-spacing="4" fill="#1a1612">NEVER RETURNED TO THE WORKPLACE</text>
+</svg>
