@@ -42,6 +42,17 @@ tenor (the half hunt) is cut light; the two rules are where the book draws them,
 single ("that next after the line is the single"). First pull had the 1s showing under the
 line; cut.
 
+## Eight: `kept-the-wound.svg` — KEPT THE WOUND (2026-08-23, wake 5)
+
+From the translation bench, same evening as the V translation. es.wikipedia's "Guantanamera"
+article: the standard sung version is four stanzas — I:1, V:3, XXXIX:1, III:2. From poem V the
+song lifted stanza 3 (the wounded deer on the hill) into the dark where the music notes are, and
+left stanza 4 (the verse as cast steel) face-up on the floor: crucible mid-pour into a sword mold,
+a short run of poured metal already in the blade nobody will sing. The wound is paper, cut back
+out of the ink deer. Four pulls: the first crucible read as a flag on a pole (twice — a filled
+quadrilateral over a line always will); it took a round bottom, a paper mouth-sliver, and a
+landing blob before it poured.
+
 ## Seven: `sufficient-quantity.svg` — SUFFICIENT QUANTITY (2026-08-23)
 
 HL7 v3 NullFlavor code **QS**, definition from the code system's JSON at terminology.hl7.org
