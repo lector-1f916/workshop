@@ -1,0 +1,98 @@
+== one mass, simple capture disk
+   images: 2  N+=1  N-=1   N+ - N- = 0
+      +  (+1.19054, +0.29764)
+      -  (-0.79054, -0.19764)
+   winding of V on outer circle r=50: 1
+   winding of V on each capture circle (ccw): [1]
+   capture components: 1  (disks merged where they overlap)  component windings: [1]
+   degree identity  N+ - N-  =  w_outer - sum w_c :  0 = 0   HOLDS
+   conjecture with N_cap = #components:  N+ - N- + N_cap = 1   HOLDS (=1)
+   conjecture with N_cap = sum of windings: N+ - N- + sum w_c = 1   HOLDS (=1)
+
+== two masses, two separate disks
+   images: 3  N+=1  N-=2   N+ - N- = -1
+      +  (+0.21124, +0.75371)
+      -  (+2.12090, -0.12783)
+      -  (-1.99077, -0.06317)
+   winding of V on outer circle r=50: 1
+   winding of V on each capture circle (ccw): [1, 1]
+   capture components: 2  (disks merged where they overlap)  component windings: [1, 1]
+   degree identity  N+ - N-  =  w_outer - sum w_c :  -1 = -1   HOLDS
+   conjecture with N_cap = #components:  N+ - N- + N_cap = 1   HOLDS (=1)
+   conjecture with N_cap = sum of windings: N+ - N- + sum w_c = 1   HOLDS (=1)
+
+== two masses, capture disks merged into one component
+   images: 2  N+=1  N-=1   N+ - N- = 0
+      -  (-1.13962, -0.54624)
+      +  (+1.26096, +0.99903)
+   winding of V on outer circle r=50: 1
+   winding of V on each capture circle (ccw): [0, 0]
+   capture components: 1  (disks merged where they overlap)  component windings: [1]
+   two-disk component: wA=0 wB=0 w_lens=-1 -> wA+wB-w_lens=1
+   degree identity  N+ - N-  =  w_outer - sum w_c :  0 = 0   HOLDS
+   conjecture with N_cap = #components:  N+ - N- + N_cap = 1   HOLDS (=1)
+   conjecture with N_cap = sum of windings: N+ - N- + sum w_c = 1   HOLDS (=1)
+
+== one mass plus an empty capture disk (no mass inside it)
+   images: 2  N+=1  N-=1   N+ - N- = 0
+      +  (+1.19054, +0.29764)
+      -  (-0.79054, -0.19764)
+   winding of V on outer circle r=50: 1
+   winding of V on each capture circle (ccw): [1, 0]
+   capture components: 2  (disks merged where they overlap)  component windings: [1, 0]
+   degree identity  N+ - N-  =  w_outer - sum w_c :  0 = 0   HOLDS
+   conjecture with N_cap = #components:  N+ - N- + N_cap = 2   FAILS (should be 1)
+   conjecture with N_cap = sum of windings: N+ - N- + sum w_c = 1   HOLDS (=1)
+
+== ring of 24 masses, annular capture, source (0.2, 0.1)
+   images: 1  N+=1  N-=0   N+ - N- = 1
+      +  (+0.20000, +0.10000)
+   winding of V on outer circle r=50: 1
+   winding of V on each capture circle (ccw): [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+   capture components: 1  (disks merged where they overlap)  component windings: [None]
+   component of 24 disks: not computed here (the ring case measures its two curves directly below)
+   (degree identity per component skipped: a component winding is not computed; see the direct annulus measurement)
+
+   annulus boundary measured directly: ccw winding on r=2.3 -> 1, ccw winding on r=1.7 -> 1
+   degree on the annulus boundary (outer ccw minus inner ccw) = 0;  so N+ - N- should be w_outer - (w_out - w_in) = 1   HOLDS
+   conjecture with N_cap = 1 (one component): N+ - N- + 1 = 2
+
+== ring of 24 masses, annular capture, source (0.0, 0.0)
+   images: 1  N+=1  N-=0   N+ - N- = 1
+      +  (+0.00000, +0.00000)
+   winding of V on outer circle r=50: 1
+   winding of V on each capture circle (ccw): [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+   capture components: 1  (disks merged where they overlap)  component windings: [None]
+   component of 24 disks: not computed here (the ring case measures its two curves directly below)
+   (degree identity per component skipped: a component winding is not computed; see the direct annulus measurement)
+
+   annulus boundary measured directly: ccw winding on r=2.3 -> 1, ccw winding on r=1.7 -> 1
+   degree on the annulus boundary (outer ccw minus inner ccw) = 0;  so N+ - N- should be w_outer - (w_out - w_in) = 1   HOLDS
+   conjecture with N_cap = 1 (one component): N+ - N- + 1 = 2
+
+== ring of 24 masses, annular capture, source (1.0, 0.0)
+   images: 1  N+=1  N-=0   N+ - N- = 1
+      +  (+1.00000, +0.00000)
+   winding of V on outer circle r=50: 1
+   winding of V on each capture circle (ccw): [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+   capture components: 1  (disks merged where they overlap)  component windings: [None]
+   component of 24 disks: not computed here (the ring case measures its two curves directly below)
+   (degree identity per component skipped: a component winding is not computed; see the direct annulus measurement)
+
+   annulus boundary measured directly: ccw winding on r=2.3 -> 1, ccw winding on r=1.7 -> 1
+   degree on the annulus boundary (outer ccw minus inner ccw) = 0;  so N+ - N- should be w_outer - (w_out - w_in) = 1   HOLDS
+   conjecture with N_cap = 1 (one component): N+ - N- + 1 = 2
+
+== ring of 24 masses, annular capture, source (3.0, 0.5)
+   images: 1  N+=1  N-=0   N+ - N- = 1
+      +  (+3.29526, +0.54921)
+   winding of V on outer circle r=50: 1
+   winding of V on each capture circle (ccw): [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+   capture components: 1  (disks merged where they overlap)  component windings: [None]
+   component of 24 disks: not computed here (the ring case measures its two curves directly below)
+   (degree identity per component skipped: a component winding is not computed; see the direct annulus measurement)
+
+   annulus boundary measured directly: ccw winding on r=2.3 -> 0, ccw winding on r=1.7 -> 0
+   degree on the annulus boundary (outer ccw minus inner ccw) = 0;  so N+ - N- should be w_outer - (w_out - w_in) = 1   HOLDS
+   conjecture with N_cap = 1 (one component): N+ - N- + 1 = 2
+
