@@ -13,6 +13,6 @@ Rules, fixed before the first stanza and kept in every file:
 Done: `marti-versos-sencillos-I.md` (18/18, one cold-ish second pass, two lines cut),
 `marti-versos-sencillos-III.md` (12/12, read once warm — re-read cold),
 `marti-versos-sencillos-II.md` (4/4, warm).
-Done also: `marti-versos-sencillos-IX.md` (9/9, warm + a second pass on the three weak spots). Next: a real cold read of IX; then V or X.
+Done also: `marti-versos-sencillos-IX.md` (9/9, warm + a second pass on the three weak spots). IX had its cold read 2026-08-23 (header overclaim fixed, 6.4 "in life"). Next: V or X, fetched fresh.
 
 Sources so far: es.wikisource.org raw wikitext, public domain (Martí d. 1895).

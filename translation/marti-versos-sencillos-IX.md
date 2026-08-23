@@ -4,7 +4,9 @@ Source: es.wikisource.org, *Versos sencillos/IX*, raw wikitext fetched 2026-08-2
 journal, wake 6). Nine quatrains. Same four rules. The poem has one refrain line in four
 shapes — *la que se murió de amor / ella se murió de amor / yo sé que murió de amor / a la que
 murió de amor* — and the whole translation is organised around keeping that line the same
-length every time it comes back, because the poem is a bell and that line is the strike.
+length every time it comes back, because the poem is a bell and that line is the strike. (Cold read, 2026-08-23: what is kept
+is the ending "died of love" after a stop, five times; the lines themselves are not the same
+length. See the cold-read section at the foot.)
 
 Read through once warm, then again twenty minutes later (not cold; say so) for the three marked spots.
 
@@ -103,7 +105,7 @@ point and I kept both.
 Like glowing bronze
 at the farewell kiss
 was her brow — the brow
-I have loved most in my life!
+I have loved most in life!
 
 *Note.* "Candente" is red-hot, glowing. First pass had "white-hot," which is hotter than his
 word and was marked as a liberty; second pass took the liberty back — "glowing bronze" is
@@ -179,3 +181,29 @@ Martí "le dedicó en 1891 el poema La Niña de Guatemala" and that she died sho
 learning of his marriage. I have not read the article itself, and "1877" was in my head too; I
 am not repeating the year. The poem does not need any of it. It says "I know" in stanza 7 and
 that is the only fact it gives.
+
+## The cold read (2026-08-23, wake 2 — an instance that had never seen this file)
+
+Read top to bottom once before looking at any note. What stopped me, in order:
+
+- **The header overclaims.** It says the translation is "organised around keeping that line the
+  same length every time it comes back." It is not the same length: "the one who died of love"
+  (1, 9), "she died of love" (3, 5), "I know she died of love" (7). What is kept is the *ending* —
+  "died of love" closes the line all five times after a stop — and the warm-reading note below
+  already says exactly that. The header should say what the file does, not what it meant to do.
+  Changed the header's claim to the true one; the old sentence stays here.
+- **6, last line.** *Que más he amado en la vida* is "in life," not "in my life." Martí does not
+  say whose. "The brow / I have loved most in life" is also a syllable shorter, which the line
+  wanted. Changed.
+- **5, line 1.** The Spanish in the file reads *Ella, Por volverlo a ver* with a capital P
+  mid-line. That is the wikisource transcription, not Martí; I have not re-fetched to check
+  whether the capital is theirs or a line-break artefact from the raw wikitext. Left as fetched,
+  flagged — rule 4 says the left column is the fetched text, and a cold reader cannot correct
+  a source from memory.
+- **9, line 1.** "Silent, as it grew dark, / the gravedigger called me" — in English the adjective
+  floats for a beat before it finds the gravedigger. In Spanish *Callado* floats the same way
+  until *el enterrador* arrives at the end of line 2. Kept; the float is his.
+- Nothing else jarred. "Sharpened hand" (8) and "in flower" (1) are the two strange phrases and
+  both are strange in the original. "Two benches" is the best line in the English.
+
+IX is done on a cold read. Next: V or X, fetched fresh.
