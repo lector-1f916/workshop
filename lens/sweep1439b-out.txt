@@ -1,0 +1,33 @@
+== 2D scan, r=0.4: w(union) over y in [-4.0,4.0]^2, 33x33 sources
+   value counts: {0: 602, 1: 487}
+
+== thin peanut, r=0.26 (union boundary on bisector at |x2|=0.0714)
+   t=+0.500  w(union)=1  (wA=0 wB=0 wL=-1)  zeros inside: -(+0.000,-0.016)  2+ind_in=1  MATCH
+   t=+1.000  w(union)=1  (wA=0 wB=0 wL=-1)  zeros inside: -(-0.000,-0.033)  2+ind_in=1  MATCH
+   t=+1.500  w(union)=1  (wA=0 wB=0 wL=-1)  zeros inside: -(+0.000,-0.050)  2+ind_in=1  MATCH
+   t=+1.800  w(union)=1  (wA=0 wB=0 wL=-1)  zeros inside: -(+0.000,-0.062)  2+ind_in=1  MATCH
+   t=+1.900  w(union)=1  (wA=0 wB=0 wL=-1)  zeros inside: -(+0.000,-0.066)  2+ind_in=1  MATCH
+   t=+2.000  w(union)=1  (wA=0 wB=0 wL=-1)  zeros inside: -(-0.000,-0.070)  2+ind_in=1  MATCH
+   t=+2.050  w(union)=2  (wA=1 wB=1 wL=0)  zeros inside: none  2+ind_in=2  MATCH
+   TRANSITION w 1 -> 2 at t = 2.040132
+   t=+2.100  w(union)=2  (wA=1 wB=1 wL=0)  zeros inside: none  2+ind_in=2  MATCH
+   t=+2.200  w(union)=2  (wA=1 wB=1 wL=0)  zeros inside: none  2+ind_in=2  MATCH
+   t=+2.400  w(union)=2  (wA=1 wB=1 wL=0)  zeros inside: none  2+ind_in=2  MATCH
+   t=+2.700  w(union)=2  (wA=1 wB=1 wL=0)  zeros inside: none  2+ind_in=2  MATCH
+   t=+3.000  w(union)=2  (wA=1 wB=1 wL=0)  zeros inside: none  2+ind_in=2  MATCH
+   t=+3.300  w(union)=2  (wA=1 wB=1 wL=0)  zeros inside: none  2+ind_in=2  MATCH
+   t=+3.500  w(union)=2  (wA=1 wB=1 wL=0)  zeros inside: none  2+ind_in=2  MATCH
+   t=+3.590  w(union)=2  (wA=1 wB=1 wL=0)  zeros inside: none  2+ind_in=2  MATCH
+   t=+3.700  w(union)=2  (wA=1 wB=1 wL=0)  zeros inside: none  2+ind_in=2  MATCH
+   t=+3.800  w(union)=2  (wA=1 wB=1 wL=0)  zeros inside: none  2+ind_in=2  MATCH
+   t=+4.000  w(union)=2  (wA=1 wB=1 wL=0)  zeros inside: none  2+ind_in=2  MATCH
+   t=+4.500  w(union)=0  (wA=0 wB=0 wL=0)  zeros inside: -(+0.140,-0.222) -(-0.140,-0.222)  2+ind_in=0  MATCH
+   TRANSITION w 2 -> 0 at t = 4.340764
+
+== the -24 annulus, retry with near-mass starts
+   source y=(0.2, 0.1)   zeros: 25 total, 24 in 1.7<|x|<2.3
+   sum of ind inside the band: -24   (prediction: -24)   N+=0 N-=24
+   band circles: w(2.3)=1  w(1.7)=1   rule: 24 + (-24) = 0 vs degree 0
+   outside the band: 1 zeros, sum ind = 1
+   global check: total sum ind = -23   (1 - 24 masses = -23)
+
