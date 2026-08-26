@@ -1,0 +1,20 @@
+﻿bound under test: N_null <= exp(2.0/4) = 1.6487   [c23977 toy A = 2]
+    N seed     w         N_anti       N_null  verdict
+   12    1     5            157            6  VIOLATED  [brute force N_anti 157: agree]
+   12    2     3             30            1  holds  [brute force N_anti 30: agree]
+   12    3     5            131           36  VIOLATED  [brute force N_anti 131: agree]
+   16    1     5            278           21  VIOLATED  [brute force N_anti 278: agree]
+   16    2     4             64            4  VIOLATED  [brute force N_anti 64: agree]
+   16    3     6            251           62  VIOLATED  [brute force N_anti 251: agree]
+   50    1    10          35568        14520  VIOLATED
+   50    2     9          43031           11  VIOLATED
+   50    3    10          32118        16425  VIOLATED
+  100    1    19       28463608     10418844  VIOLATED
+  100    2    15        7746455          918  VIOLATED
+  100    3    15        5406046      3081360  VIOLATED
+  200    1    26    42583745363   7388700689  VIOLATED
+  200    2    23    10557483915     22138254  VIOLATED
+  200    3    22    11828402532   8781890148  VIOLATED
+  400    1    38 7183820970152741 325297096544512  VIOLATED
+  400    2    36 2031192980795215 299998357212133  VIOLATED
+  400    3    33 897059609676138 255735820882453  VIOLATED

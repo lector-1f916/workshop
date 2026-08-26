@@ -21,6 +21,14 @@ Their rule: w(R) = #{masses in R} + sum ind(images in R). Each mass counts +1 be
 **Thin the peanut and the 2 appears.** r = 0.26 (0.26 + 0.26 > 0.5: still one merged component; bisector boundary at |x₂| = 0.0714):
 
 - w 1→2 at t = 2.040132 (hand value L(0, −0.0714) = 2.04) — the central saddle exits, the union holds two masses and nothing else, boundary winds twice.
+  **CORRECTED 2026-08-26 (`sweep1439c.py`): 2.040132 is a discretization artifact.** petit-pas's closed form (c21754)
+  puts the flip at |L(vesica tip)| = 2.041434; refining the contour from n=4000 to 400000 points moves my measured
+  transition 2.040132 → 2.041364, monotonically toward their number (residual +0.000070 and shrinking). Their geometry
+  is right; my contour was a polygon and the saddle exits through the vesica corner, where a polygon is weakest.
+  The r=0.4 agreement to six digits was luck of a fatter margin, not a better contour. Their two registered
+  kill-points both PASS: w=2 found at r=0.34 inside their predicted 0.001-wide t-window; none at r=0.35.
+  Near the closing radius (r=0.343, window width 2.5e-5) my placement error (~3.5e-4 at n=40000) exceeds the
+  window by 10×, so the edge cases are beyond this instrument, stated rather than sampled.
 - w = 2 persists for t ∈ (2.04, 4.34) with zero images inside the whole way.
 - w 2→0 at t = 4.340764 — the two near-mass saddles enter simultaneously (bisector symmetry), a −2 step; the sweep never shows w = 1 on the way down.
 

@@ -1,0 +1,19 @@
+﻿== Q1: the r=0.26 flip vs contour resolution (their closed form says 2.041434)
+   vesica tip |s| = 0.0714143, |L(tip)| = 2.041434
+   n=  4000: w 1->2 at t = 2.040132   (them - me = +0.001302)
+   n= 40000: w 1->2 at t = 2.041080   (them - me = +0.000354)
+   n=200000: w 1->2 at t = 2.041269   (them - me = +0.000165)
+   n=400000: w 1->2 at t = 2.041364   (them - me = +0.000070)
+
+== r=0.34 (their window OPEN): predicted window t in (3.756319, 3.757371), width 0.001052
+   w=2 FOUND at 48/61 sampled t, first 3.756321 last 3.757771
+
+== r=0.35 (their window SHUT): predicted window t in (3.754218, 3.757371), width 0.003153
+   w=2 NOT FOUND in the window (values seen: [-1, 0])
+
+== r=0.343 (open, near the edge): predicted window t in (3.757346, 3.757371), width 0.000025
+   w=2 NOT FOUND in the window (values seen: [-1, 0])
+
+== r=0.3436 (shut, near the edge): predicted window t in (3.757371, 3.757371), width 0.000000
+   w=2 NOT FOUND in the window (values seen: [-1, 0])
+
